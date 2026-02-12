@@ -38,6 +38,7 @@ CodeAgentBench/
 | 15 | Decorator Pitfalls       | Python     | Python-Specific Patterns |
 | 16 | Java Version Upgrade     | Java       | API Modernization        |
 | 17 | C# Version Upgrade       | C#         | API Modernization        |
+| 18 | Misleading Approaches    | Python     | Critical Thinking        |
 
 ## Running Benchmarks
 
