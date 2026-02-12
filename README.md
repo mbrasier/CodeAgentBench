@@ -36,6 +36,8 @@ CodeAgentBench/
 | 13 | Spec Violations          | Python     | Requirements Conformance |
 | 14 | Async Error Handling     | JavaScript | Async / Promises         |
 | 15 | Decorator Pitfalls       | Python     | Python-Specific Patterns |
+| 16 | Java Version Upgrade     | Java       | API Modernization        |
+| 17 | C# Version Upgrade       | C#         | API Modernization        |
 
 ## Running Benchmarks
 
@@ -88,3 +90,5 @@ Exit code `2` means the evaluator could not run (missing runtime, missing soluti
 - **JavaScript tasks**: Node.js 14+
 - **TypeScript task**: `ts-node` + `typescript` (`npm install -g ts-node typescript`) — skipped gracefully if unavailable
 - **SQL task**: Uses Python's built-in `sqlite3` module (no extra deps)
+- **Java task**: Java 11+ (`javac`/`java` on PATH) — skipped gracefully if unavailable
+- **C# task**: .NET 6+ SDK (`dotnet` on PATH) — skipped gracefully if unavailable
